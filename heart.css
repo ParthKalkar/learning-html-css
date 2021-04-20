@@ -11,6 +11,10 @@
     width: 50px;
     transform: rotate(-45deg) ;
   }
+  
+.heart:hover{
+  transform: scale(2.1);
+  }
   .heart::after {
     background-color: pink;
     content: "";
